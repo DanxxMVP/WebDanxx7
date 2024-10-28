@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="icon" href="img/Logo.png" type="image/png">
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">DANXX</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Logo.png" alt="">
+            </div>
+            <h1>SERGIO CAST</h1>
+            <h2>Ingeniero En ENVYND - Desarrollador </h2>
+            <div class="redes">
+                <div class="redes">
+                    <a href="https://www.instagram.com/danxx_yt/" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/DanxxMVP/DanxxMVP" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://join.skype.com/invite/jSgR5k4cTIHc" target="_blank" rel="noopener noreferrer" aria-label="Skype"><i class="fa-brands fa-skype"></i></a>
+                    <a href="https://www.linkedin.com/in/daniel-castellanos-257930251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sergio Aquino.</span> Soy un apasionado desarrollador de software de México, con experiencia en el desarrollo de proyectos web y móviles. 
+                Mi enfoque principal está en Flutter, Python, y Figma, tecnologías que utilizo para crear aplicaciones eficientes y visualmente atractivas.
+                Siempre estoy aprendiendo y perfeccionando mis habilidades, y me encanta enfrentar nuevos desafíos que me permiten crecer como profesional..</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            20-10-2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +52 7711463814
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            booyahdanxx7@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Pachuca, Hidalgo Mexico
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="cv/CV1.pdf" target="_blank" rel="noopener noreferrer" >
+                 <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+            </a>
+           
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript-Vue-Boostrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>UX/UI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>flutter</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria En EVYND</h4>
+                        <span class="casa">Universidad UTMIR</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Egresado de la Universidad Tecnológica de Míneral de la Reforma, donde curse la carrera de Ingeniería en Entornos Virtuales y Negocios Digitales. 
+                            Durante mi tiempo en la universidad, he adquirido una sólida formación en áreas como programación, 
+                            desarrollo de software, diseño de interfaces y gestión de proyectos tecnológicos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>TSU en Tic's</h4>
+                        <span class="casa">Universidad UTMIR</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Soy egresado como Técnico Superior Universitario de la Universidad Tecnológica de Mineral de la Reforma, donde estudié la carrera 
+                            de Tecnologías de la Información y la Comunicación. 
+                            A lo largo de mi formación, adquirí conocimientos y habilidades técnicas en áreas como redes de computadoras, hardware y software.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificaciones</h4>
+                        <span class="casa">Google - IBM - Udemy</span>
+                        <span class="fecha">2020 - 2024</span>
+                        
+                        <ul>
+                            <li><strong>Desarrollo UI/UX</strong>: Creación de interfaces intuitivas y centradas en el usuario.</li>
+                            <br>
+                            <li><strong>Creación de chatbots</strong>: Implementación de soluciones conversacionales automatizadas.</li>
+                            <br>
+                            <li><strong>JavaScript y Python</strong>: Desarrollo de aplicaciones web dinámicas y modernas.</li>
+                            <br>
+                            <li><strong>Ingles</strong>: Certificado de nivel B2 TEFL</li>
+                            <br>
+                        </ul>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral/Estudios</h3>
+                    <div class="item der">
+                        <h4>FullStack Developer</h4>
+                        <span class="casa">Hefezu Interactive</span>
+                        <span class="fecha">2024 - 2024</span>  
+                        <ul>
+                            <li><strong>Creación de Módulo de Reconocimiento Facial en Python</strong>: Actualización de un sistema de detección de rostros.</li><br>
+                            <li><strong>Prototipo de Red de Inteligencia Artificial Neuronal</strong>: Desarrollo de una red para la detección de rostros utilizando una base de datos.</li><br>
+                            <li><strong>Diseño de Aplicación Móvil en Figma</strong>: Creación de un diseño de interfaz para una aplicación móvil que integra la detección de rostros.</li><br>
+                        </ul>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Backend Developer</h4>
+                        <span class="casa">Ouvio Systems</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <ul>
+                            <li><strong>CRUD del Sistema de Gestión de Boletería del Estado de Hidalgo</strong>: Desarrollo de un sistema de gestión utilizando tecnologías como PHP y Laravel.</li>
+                            <br>
+                            <li><strong>Implementación de Servicio de Base de Datos</strong>: Configuración y manejo de bases de datos para la gestión eficiente de la información del sistema de boletería.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">FREELANCE</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <ul>
+                            <li><strong>Creación de página web del negocio</strong>: Desarrollo de la página desde la toma de requisitos, metodologías, arquitectura y diseño.</li><br>
+                            <li><strong>Implementación de servicio de base de datos</strong>: Configuración y manejo de bases de datos para la gestión eficiente de la información del sistema.</li><br>
+                            <li><strong>Despliegue</strong>: Despliegue de la página en la nube, incluyendo la contratación de hosting, dominio y certificado SSL, además del mantenimiento y soporte.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/portf1fn.png" alt="">
+                    <div class="overlay">
+                        <h3>Figma</h3>
+                        <p>Prototipo de Reconocimiento Facial para Escuela</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portf2fn.png" alt="">
+                    <div class="overlay">
+                        <h3>Python</h3>
+                        <p>Módulo de Reconocimiento Facial para Balneario</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portf3fn.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificaciones</h3>
+                        <p>IBM</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Portf4fn.png" alt="">
+                    <div class="overlay">
+                        <h3>Metodologías</h3>
+                        <p>Scrum: Desarrollo, Documentación, Implementación y Ejecución de Proyectos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Portf5fn.png" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Html, CSS, JavaScript, PHP, Laravel, MySQL, Git, GitHub, etc.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portf6fn.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Móvil</h3>
+                        <p>Flutter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/Ubicacion3.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Mexico, Pachuca Hidalgo
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contáctame: 
+                                771-146-3814
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: 
+                                booyahdanxx7@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+        <footer>
+            <a href="#inicio" class="arriba" aria-label="Volver al inicio">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="https://www.instagram.com/danxx_yt/" target="_blank" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/DanxxMVP/DanxxMVP" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://join.skype.com/invite/jSgR5k4cTIHc" target="_blank" rel="noopener noreferrer" aria-label="Skype"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-castellanos-257930251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="derechos">© 2024 Sergio Castellanos. Todos los derechos reservados.</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+</body>
+</html>
