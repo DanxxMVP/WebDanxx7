@@ -47,6 +47,18 @@ html{
 .contenedor-header header nav ul li a:hover{
     color: #1CB698;
 }
+.contenedor-header header .logo a {
+    font-size: 40px; /* Cambia el tamaño del texto */
+    color: #a6d4f3; /* Cambia el color del texto a dorado */
+    text-transform: uppercase; /* Cambia el texto a mayúsculas */
+    font-style: normal; /* Da estilo cursivo */
+    text-shadow: 2px 2px 4px rgba(17, 18, 16, 0.5); /* Agrega sombra al texto */
+    padding: 5px 10px; /* Agrega espacio alrededor del texto */
+    border-radius: 5px; /* Cambia la forma del contenedor del texto */
+    font-family: "Bebas Neue", sans-serif;
+   
+}
+
 .nav-responsive{
     background-color: #1CB698;
     color:#fff;
@@ -106,6 +118,37 @@ html{
 .inicio .contenido-banner .redes a:hover{
     background-color: #1CB698;
 }
+/* Alinear el logo y el texto */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre el logo y el texto */
+    font-size: 24px;      /* Tamaño del texto */
+    color: #131111;          /* Color del texto (cámbialo por el que prefieras) */
+    font-weight: bold;    /* Grosor del texto */
+    text-decoration: none; /* Elimina subrayado */
+    font-family: Arial, sans-serif; /* Cambia la fuente si lo deseas */
+    transition: color 0.3s ease; /* Efecto suave en hover */
+}
+
+.logo-img {
+    max-width: 40px; /* Tamaño del logo */
+    height: auto;
+}
+
+.contenedor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Para el menú de navegación */
+#nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos del menú */
+}
+
 .sobremi{
     background-color: #1e2326;
     color: #fff;
@@ -183,6 +226,7 @@ html{
     margin-bottom: 10px;
 }
 .sobremi button{
+    
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
