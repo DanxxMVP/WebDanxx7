@@ -50,3 +50,8 @@ Si deseas contribuir a **DanxxMVP**, sigue estos pasos:
 5. Abre una solicitud de extracción.
 
 Gracias por revisar el proyecto **DanxxMVP**. Esperamos que te guste y encuentres útil el trabajo realizado. No dudes en enviar comentarios y sugerencias para mejorar la experiencia. ¡Felices contribuciones! 😊
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+<h2 align='center'>⭐Thanks for your time⭐</h2>
+<br>
