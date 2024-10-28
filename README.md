@@ -13,7 +13,7 @@ Este proyecto está desplegado en GitHub Pages para un acceso rápido y una expe
 
 ## 🚀 Instalación y Configuración
 
-- **Instalación de Dependencias**: Este proyecto es principalmente web, por lo que puedes abrir los archivos en un navegador directamente. Si quieres trabajar con los elementos de JavaScrip, Html y CSS asegúrate de tener los entornos de desarrollo configurados.
+- **Instalación de Dependencias**: Este proyecto es principalmente web, por lo que puedes abrir los archivos en un navegador directamente. Si quieres trabajar con los elementos de JavaScript, Html y CSS asegúrate de tener los entornos de desarrollo configurados.
 
 - **Despliegue en GitHub Pages**:
   - Para implementar la versión web en GitHub Pages, asegúrate de haber activado Pages en la configuración de tu repositorio.
